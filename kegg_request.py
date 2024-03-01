@@ -54,9 +54,13 @@ def parse_kegg_response(response_text):
 # pathway_info = query_kegg_pathway(pathway_id)
 # print(pathway_info)
 
-pathway_id = "path:map00010"  # Glycolysis / Gluconeogenesis pathway
-pathway_info = query_kegg_pathway(pathway_id)
-print(pathway_info)
+# pathway_id = "path:map00010"  # Glycolysis / Gluconeogenesis pathway
+# pathway_info = query_kegg_pathway(pathway_id)
+# print(pathway_info)
+
+# pathway_id = "C00031"  # Glycolysis / Gluconeogenesis pathway
+# pathway_info = query_kegg_pathway(pathway_id)
+# print(pathway_info)
 
 # # Mock response (simplified for demonstration)
 # mock_response = """ENTRY       map00010
