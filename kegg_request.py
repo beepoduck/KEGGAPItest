@@ -1,6 +1,5 @@
 import requests
 
-# Define a function to query the KEGG API for pathway information
 def query_kegg_pathway(pathway_id):
     """
     Fetches details for a given pathway ID from the KEGG API.
@@ -30,7 +29,6 @@ def parse_kegg_response(response_text):
     Returns:
     - dict: A dictionary with parsed pathway information.
     """
-    # Example parsing logic; this should be adapted based on your specific needs
     pathway_info = {}
     lines = response_text.split('\n')
     current_section = None
